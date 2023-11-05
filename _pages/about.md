@@ -17,17 +17,17 @@ My research focuses are Machine Learning Security, Differential Privacy and Adve
 
 <h2 id="publications"> Publications</h2>
 
--DP-Mix: Mixup-based Data Augmentation for Differentially Private Learning.
+- DP-Mix: Mixup-based Data Augmentation for Differentially Private Learning.
 
-<b>Wenxuan Bao</b>, Francesco Pittaluga, Vijay Kumar B G, and Vincent Bindschaedler
+  <b>Wenxuan Bao</b>, Francesco Pittaluga, Vijay Kumar B G, and Vincent Bindschaedler
 
-*NeurIPS*, 2023.
+  *NeurIPS*, 2023.
 
-On the Importance of Architecture and Feature Selection in Differentially Private Machine Learning.
+- On the Importance of Architecture and Feature Selection in Differentially Private Machine Learning.
 
-<b>Wenxuan Bao</b>, Luke A. Bauer, and Vincent Bindschaedler
+  <b>Wenxuan Bao</b>, Luke A. Bauer, and Vincent Bindschaedler
 
-*arXiv*, 2022.
+  *arXiv*, 2022.
 
 
 
