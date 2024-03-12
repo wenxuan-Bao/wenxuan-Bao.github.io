@@ -19,13 +19,13 @@ Machine Learning Security, Differential Privacy and Adversarial Machine Learning
 
 <h2 id="publications"> Publications</h2>
 
-- DP-Mix: Mixup-based Data Augmentation for Differentially Private Learning.
+- [DP-Mix: Mixup-based Data Augmentation for Differentially Private Learning](https://dp-mix.github.io/).
 
   <b>Wenxuan Bao</b>, Francesco Pittaluga, Vijay Kumar B G, and Vincent Bindschaedler
 
   *NeurIPS*, 2023.
 
-- On the Importance of Architecture and Feature Selection in Differentially Private Machine Learning.
+- [On the Importance of Architecture and Feature Selection in Differentially Private Machine Learning](https://arxiv.org/pdf/2205.06720.pdf).
 
   <b>Wenxuan Bao</b>, Luke A. Bauer, and Vincent Bindschaedler
 
