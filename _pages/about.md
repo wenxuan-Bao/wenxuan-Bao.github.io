@@ -19,7 +19,7 @@ Machine Learning Security, Differential Privacy, and Adversarial Machine Learnin
 
 <h2 id="publications"> Publications</h2>
 
-- [R+R: Towards Reliable and Generalizable Differentially Private Machine Learning].
+- R+R: Towards Reliable and Generalizable Differentially Private Machine Learning.
 
   <b>Wenxuan Bao</b> and Vincent Bindschaedler
 
