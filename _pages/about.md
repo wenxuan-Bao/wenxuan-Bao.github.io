@@ -31,6 +31,12 @@ Machine Learning Security, Differential Privacy, and Adversarial Machine Learnin
   <b>Wenxuan Bao</b>, Francesco Pittaluga, Vijay Kumar B G, and Vincent Bindschaedler
 
   *NeurIPS*, 2023.
+  
+- Provably Secure Covert Messaging Using Image-based Diffusion Processes
+
+  Luke A. Bauer, <b>Wenxuan Bao</b>, and Vincent Bindschaedler
+  
+  *SaTML*, 2025.
 
 - [On the Importance of Architecture and Feature Selection in Differentially Private Machine Learning](https://arxiv.org/pdf/2205.06720.pdf).
 
