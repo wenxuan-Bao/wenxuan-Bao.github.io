@@ -10,7 +10,7 @@ redirect_from:
 
 About Me
 ------
-Hello, my name is Wenxuan Bao (包文轩). I am a third-year PhD student in CISE Department at [University of Florida](https://www.ufl.edu/)
+Hello, my name is Wenxuan Bao (包文轩). I am a fourth-year PhD student in CISE Department at [University of Florida](https://www.ufl.edu/)
 I am in the Florida Institute for Cybersecurity Research ([FICS](https://fics.institute.ufl.edu/)) and my advisor is [Dr. Vincent Bindschaedler](https://vbinds.ch/). 
 
 Research Interests
@@ -32,7 +32,7 @@ Machine Learning Security, Differential Privacy, and Adversarial Machine Learnin
 
   *NeurIPS*, 2023.
   
-- Provably Secure Covert Messaging Using Image-based Diffusion Processes
+- [Provably Secure Covert Messaging Using Image-based Diffusion Processes](https://arxiv.org/pdf/2503.10063)
 
   Luke A. Bauer, <b>Wenxuan Bao</b>, and Vincent Bindschaedler
   
