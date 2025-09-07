@@ -15,7 +15,7 @@ I am in the Florida Institute for Cybersecurity Research ([FICS](https://fics.in
 
 Research Interests
 ------
-Privacy-Preserving Machine Learning,  Differential Privacy, Responsible AI, AI System Vulnerability Analysis \& Mitigation, and LLM security
+Privacy-Preserving Machine Learning,  Differential Privacy, Responsible AI, and LLM security
 
 <h2 id="publications"> Publications</h2>
 
@@ -35,7 +35,7 @@ Privacy-Preserving Machine Learning,  Differential Privacy, Responsible AI, AI S
 
   Luke A. Bauer, <b>Wenxuan Bao</b>, Malvika Ranjitsinh Jadhav and Vincent Bindschaedler
   
-  *IEEE S\&P Workshops*, 2025.
+  *IEEE S&P Workshops*, 2025.
   
 - [R+R: Towards Reliable and Generalizable Differentially Private Machine Learning](https://ieeexplore.ieee.org/document/10917512).
 
