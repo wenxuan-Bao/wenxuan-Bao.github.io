@@ -17,7 +17,18 @@ Research Interests
 ------
 Privacy-Preserving Machine Learning,  Differential Privacy, Responsible AI, and LLM security
 
+News
+------
+- [2025.09] Our work "Privacy-Preserving Machine Learning with Plausible Deniability" is accepted in *NeurIPS 2025*!
+- [2025.09] Our work "Enabling Plausible Deniability in Flash-based Storage through Data Permutation" is accepted in *ACSAC 2025*!
+
 <h2 id="publications"> Publications</h2>
+
+- Privacy-Preserving Machine Learning with Plausible Deniability.
+
+  <b>Wenxuan Bao</b>, Shan Jin, Hadi Abdullah, Anderson C. A. Nascimento, Vincent Bindschaedler and Yiwei Cai
+
+  *NeurIPS*, 2025.
 
 - Enabling Plausible Deniability in Flash-based Storage through Data Permutation.
 
