@@ -19,6 +19,7 @@ Privacy-Preserving Machine Learning,  Differential Privacy, Responsible AI, and 
 
 News
 ------
+- [2025.10] I have been named as Top Reviewer for *NeurIPS 2025*!
 - [2025.09] Our work "Privacy-Preserving Machine Learning with Plausible Deniability" is accepted in *NeurIPS 2025*!
 - [2025.09] Our work "Enabling Plausible Deniability in Flash-based Storage through Data Permutation" is accepted in *ACSAC 2025*!
 
