@@ -2,7 +2,8 @@
 main:
   - title: "Publications"
     url: /#publications
-
+  - title: "PD-SGD"
+    url: /pdsgd/
   # - title: "Talks"
   #   url: /talks/    
 
