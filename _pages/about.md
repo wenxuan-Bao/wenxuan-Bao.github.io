@@ -25,7 +25,7 @@ News
 
 <h2 id="publications"> Publications</h2>
 
-- Privacy-Preserving Machine Learning with Plausible Deniability.
+- [Deep Learning with Plausible Deniability](https://openreview.net/forum?id=tVpneDH5ov)
 
   <b>Wenxuan Bao</b>, Shan Jin, Hadi Abdullah, Anderson C. A. Nascimento, Vincent Bindschaedler and Yiwei Cai
 
