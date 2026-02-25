@@ -10,15 +10,17 @@ redirect_from:
 
 About Me
 ------
-Hello, my name is Wenxuan Bao (包文轩). I am a fourth-year PhD candidate in the CISE Department at [University of Florida](https://www.ufl.edu/)
-I am in the Florida Institute for Cybersecurity Research ([FICS](https://fics.institute.ufl.edu/)) and my advisor is [Dr. Vincent Bindschaedler](https://vbinds.ch/). 
+Hello, my name is Wenxuan Bao (包文轩). I am a Staff Research Scientist at Visa Research, where my work focuses on AI agents security, privacy and reliability. 
+
+I earned my PhD from the CISE Department at the [University of Florida](https://www.ufl.edu/) in December 2025. During my PhD, I was part of the Florida Institute for Cybersecurity Research ([FICS](https://fics.institute.ufl.edu/)), advised by [Dr. Vincent Bindschaedler](https://vbinds.ch/).
 
 Research Interests
 ------
-Privacy-Preserving Machine Learning,  Differential Privacy, Responsible AI, and LLM security
+Privacy-Preserving Machine Learning,  Differential Privacy, AI Agents Security, Privacy and Reliability.
 
 News
 ------
+- [2026.02] I joined Visa Research as a Staff Research Scientist!
 - [2025.10] I have been named as Top Reviewer for *NeurIPS 2025*!
 - [2025.09] Our work "Deep Learning with Plausible Deniability" is accepted in *NeurIPS 2025*!
 - [2025.09] Our work "Enabling Plausible Deniability in Flash-based Storage through Data Permutation" is accepted in *ACSAC 2025*!
