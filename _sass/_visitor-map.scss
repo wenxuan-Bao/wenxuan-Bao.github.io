@@ -1,0 +1,219 @@
+/* A vector map and native text keep the small sidebar card sharp. */
+.sidebar .visitor-map {
+  clear: both;
+  width: 100%;
+  max-width: 290px;
+  container-type: inline-size;
+  container-name: visitor-card;
+  margin-top: 24px;
+  overflow: hidden;
+  border: 1px solid #dde8ed;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(40, 76, 94, 0.045);
+
+  .visitor-map__heading {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 15px 13px 12px;
+  }
+
+  .visitor-map__icon {
+    flex: 0 0 17px;
+    width: 17px;
+    height: 17px;
+    color: #3991ac;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #334f5b;
+    font-family: $sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+
+  .visitor-map__canvas {
+    position: relative;
+    padding: 8px 5px 28px;
+    background: linear-gradient(160deg, #f4f9fb, #eaf3f6);
+    border-top: 1px solid #edf3f5;
+    border-bottom: 1px solid #e6eff2;
+  }
+
+  .visitor-map__world {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .visitor-map__graticule {
+    fill: none;
+    stroke: #dce9ef;
+    stroke-width: 0.7;
+  }
+
+  .visitor-map__countries path {
+    fill: #c2d8e2;
+    stroke: #f1f7fa;
+    stroke-width: 0.8;
+    stroke-linejoin: round;
+  }
+
+  .visitor-map__countries .has-visitors {
+    fill: #6fb0c6;
+  }
+
+  .visitor-map__marker-halo {
+    fill: #308fac;
+    opacity: 0.16;
+  }
+
+  .visitor-map__marker {
+    fill: #2488a7;
+    stroke: #fff;
+    stroke-width: 1.6;
+  }
+
+  .visitor-map__legend {
+    position: absolute;
+    bottom: 9px;
+    left: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #5e7783;
+    font-size: 9px;
+    line-height: 1.3;
+
+    > span {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #308fac;
+    }
+  }
+
+  .visitor-map__stats {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 9px;
+    padding: 17px 13px 10px;
+  }
+
+  .visitor-map__metric + .visitor-map__metric {
+    padding-left: 10px;
+    border-left: 1px solid #e6eef2;
+  }
+
+  .visitor-map__label {
+    display: block;
+    color: #617783;
+    font-size: 10px;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  .visitor-map__value {
+    display: block;
+    margin-top: 5px;
+    color: #548297;
+    font-size: 26px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.8px;
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+  }
+
+  .visitor-map__metric--primary .visitor-map__value {
+    color: #244c60;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .visitor-map__status {
+    margin: 0;
+    padding: 0 13px 12px;
+    color: #647a86;
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .visitor-map__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 13px;
+    border-top: 1px solid #e9f0f3;
+    color: #597784;
+    background: #fafcfd;
+    font-size: 10px;
+    line-height: 1.4;
+    text-decoration: none;
+
+    &:hover {
+      color: #287c97;
+      background: #f0f7fa;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #3991ac;
+      outline-offset: -3px;
+    }
+  }
+
+  .visitor-map__footer svg {
+    flex: 0 0 12px;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+// Narrow desktop sidebars give the main number its own full-width row.
+@container visitor-card (max-width: 180px) {
+  .sidebar .visitor-map {
+    .visitor-map__stats {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .visitor-map__metric + .visitor-map__metric {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 0 0;
+      border-left: 0;
+      border-top: 1px solid #e6eef2;
+    }
+
+    .visitor-map__metric + .visitor-map__metric .visitor-map__value {
+      margin-top: 0;
+      font-size: 20px;
+    }
+  }
+}
+
+.no-js [data-visitor-status] {
+  display: none;
+}
+
+// The taller card must remain reachable on short desktop windows.
+@media (min-width: $large) and (max-height: 960px) {
+  .sidebar--with-visitors.sticky {
+    position: static;
+  }
+}
+
+@media print {
+  .visitor-map {
+    display: none !important;
+  }
+}

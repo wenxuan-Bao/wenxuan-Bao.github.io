@@ -78,6 +78,17 @@ analytics:
     tracking_id          :
 
 
+# Free FeedPulse statistics, rendered as our own SVG map and readable numbers.
+# Only this hostname records visits; localhost previews only read statistics.
+# Keep the site ID when restyling so the new counter retains its history.
+visitor_map:
+  enabled: true
+  site_id: "58a0e3f9-0a32-4c46-9de1-f9485696db5f"
+  tracking_host: "wenxuan-bao.github.io"
+  stats_url: "https://feed-pulse.com/site/wenxuan-bao.github.io/traffic"
+  # Original prototype counter, retained for reference (not merged into totals).
+  previous_stats_url: "https://s01.flagcounter.com/more/6a92/"
+
 # Site Author
 author:
   name             : "Wenxuan Bao"

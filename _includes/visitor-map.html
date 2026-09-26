@@ -1,0 +1,36 @@
+{% if site.visitor_map.enabled %}
+<section class="visitor-map" aria-labelledby="visitor-map-title" data-site-id="{{ site.visitor_map.site_id | escape }}" data-tracking-host="{{ site.visitor_map.tracking_host | escape }}">
+  <div class="visitor-map__heading">
+    <svg class="visitor-map__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="9" />
+      <ellipse cx="12" cy="12" rx="4" ry="9" />
+      <path d="M3 12h18M5 6.5h14M5 17.5h14" />
+    </svg>
+    <h2 id="visitor-map-title">Global visitors</h2>
+  </div>
+
+  <div class="visitor-map__canvas">
+    {% include visitor-world.svg %}
+    <span class="visitor-map__legend"><span aria-hidden="true"></span>Visitor countries</span>
+  </div>
+
+  <div class="visitor-map__stats" aria-live="polite" aria-atomic="true" aria-busy="true">
+    <div class="visitor-map__metric visitor-map__metric--primary">
+      <span class="visitor-map__label">Total visits</span>
+      <strong class="visitor-map__value" data-visitor-total>—</strong>
+    </div>
+    <div class="visitor-map__metric">
+      <span class="visitor-map__label">Countries</span>
+      <strong class="visitor-map__value" data-visitor-countries>—</strong>
+    </div>
+  </div>
+  <p class="visitor-map__status" data-visitor-status role="status">Loading statistics…</p>
+  <noscript><p class="visitor-map__status">Enable JavaScript to see visitor statistics.</p></noscript>
+
+  <a class="visitor-map__footer" href="{{ site.visitor_map.stats_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="View visitor statistics on FeedPulse (opens in a new tab)">
+    <span>Stats by FeedPulse</span>
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false"><path d="M4 12 12 4M4 4h8v8" /></svg>
+  </a>
+</section>
+<script src="{{ base_path }}/assets/js/visitor-map.js" defer></script>
+{% endif %}
