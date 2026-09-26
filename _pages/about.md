@@ -20,7 +20,7 @@ Privacy-Preserving Machine Learning,  Differential Privacy, AI Agents Security, 
 
 News
 ------
-- [2025.09] Our work "Privacy-Preserving Retrieval-Augmented Generation with Plausible Deniability" is accepted in *NeurIPS 2026*!
+- [2026.09] Our work "Privacy-Preserving Retrieval-Augmented Generation with Plausible Deniability" is accepted in *NeurIPS 2026*!
 - [2026.02] I joined Visa Research as a Staff Research Scientist!
 - [2025.10] I have been named as Top Reviewer for *NeurIPS 2025*!
 - [2025.09] Our work "Deep Learning with Plausible Deniability" is accepted in *NeurIPS 2025*!
@@ -34,7 +34,7 @@ News
 
   *NeurIPS*, 2025.
 
-- Enabling Plausible Deniability in Flash-based Storage through Data Permutation.
+- [Enabling Plausible Deniability in Flash-based Storage through Data Permutation.](https://ieeexplore.ieee.org/document/11391835)
 
   Weidong Zhu, <b>Wenxuan Bao</b>, Vincent Bindschaedler, Sara Rampazzi and Kevin R. B. Butler
 
